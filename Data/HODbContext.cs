@@ -13,4 +13,6 @@ using OrtizHansEjercicioPractico.Models;
         }
 
         public DbSet<OrtizHansEjercicioPractico.Models.Burger> Burger { get; set; } = default!;
+
+public DbSet<OrtizHansEjercicioPractico.Models.Promo> Promo { get; set; } = default!;
     }
